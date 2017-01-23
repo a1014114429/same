@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.Content {
+    height: 100%;
+    width: 32rem;
+    background-color: #e2f2ff;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.Scroller-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+}
+
+.Cloud {
+    background-color: #fff;
+    height: 5rem;
+    opacity: .5;
+    border-radius: 2.5rem;
+    margin-top: 3rem;
+}
+
+.Scroll-background {
+    width: 32rem;
+    height: 43rem;
+    background: url(img/same-bg.svg);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.Chaacter-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 20.1rem;
+    transform-origin: bottom;
+}
+
+.Idol-body {
+    background-image: url(img/Idol-body.svg);
+    height: 31px;
+    width: 120px;
+    background-size: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    margin: auto;
+    position: absolute;
+}
+
+.Idol-head {
+    bottom: 31px;
+    background-image: url(img/Idol-head.svg);
+    height: 80px;
+    background-size: 100%;
+    width: 120px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+.Pipe-container {
+    height: 20.4rem;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.Pipe-wrapper {
+    white-space: nowrap;
+    font-size: 0;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+.Pipe-0 {
+    background-image: url(img/pipe-0.svg);
+    position: relative;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+.Pipe-1 {
+    background-image: url(img/pipe-1.svg);
+    position: relative;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+.Pipe-2 {
+    background-image: url(img/pipe-2.svg);
+    position: relative;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+.Pipe-3 {
+    background-image: url(img/pipe-0.svg);
+    position: relative;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
