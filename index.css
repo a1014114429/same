@@ -33,7 +33,7 @@ body {
 .Scroll-background {
     width: 32rem;
     height: 43rem;
-    background: url(img/same-bg.svg);
+    background: url(img/same-bg.svg) no-repeat;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -130,4 +130,132 @@ body {
     width: 100%;
     height: 100%;
     display: inline-block;
+}
+
+.Game-start-bar {
+    width: 100%;
+    height: 11.6rem;
+    position: absolute;
+    background-color: #fff;
+    color: #0093ff;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.Idol-selector {
+    width: 100%;
+    height: 7.6rem;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    font-size: 0;
+    text-align: left;
+    padding-left: .5rem;
+    box-sizing: border-box;
+}
+
+.idols {
+    display: inline-block;
+    width: 6.4rem;
+    height: 6.4rem;
+    margin-left: 1rem;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.Idol-a {
+    background-image: url(img/idol-a.svg);
+}
+
+.Idol-a.grey {
+    background-image: url(img/idol-a-grey.svg);
+}
+
+.Idol-b {
+    background-image: url(img/idol-b.svg);
+}
+
+.Idol-b.grey {
+    background-image: url(img/idol-b-grey.svg);
+}
+
+.Idol-c {
+    background-image: url(img/idol-c.svg);
+}
+
+.Idol-c.grey {
+    background-image: url(img/idol-c-grey.svg);
+}
+
+.Idol-d {
+    background-image: url(img/idol-d.svg);
+}
+
+.Idol-d.grey {
+    background-image: url(img/idol-d-grey.svg);
+}
+
+.Guide-button {
+    left: 1.6rem;
+    background-image: url(img/guide.svg);
+    background-size: 100%;
+    height: 3.4rem;
+    width: 3.4rem;
+    top: 1.6rem;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+.Shara-button {
+    color: #fff;
+    right: 1.6rem;
+    background-image: url(img/share.svg);
+    background-size: 100%;
+    height: 3.4rem;
+    width: 3.4rem;
+    top: 1.6rem;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+.Rank {
+    padding-top: 1.4rem;
+    font-weight: 700;
+    font-size: 2rem;
+    z-index: 100;
+    text-align: center;
+    color: #603813;
+}
+
+.High-rank {
+    font-size: 1.2rem;
+    border-top: 1px solid #603813;
+    width: 10rem;
+    margin: 0 auto;
+    margin-top: .6rem;
+    padding-top: .6rem;
+    z-index: 100;
+    text-align: center;
+    color: #603813;
+}
+
+.Single-rank {
+    font-weight: 700;
+    font-size: 2.4rem;
+    background-color: #e2f2ff;
+    padding: 0 1rem;
+    border-radius: 2rem;
+    width: 10rem;
+    height: 3rem;
+    line-height: 3rem;
+    top: 1rem;
+    transition: .2s ease-out;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #603813;
 }
